@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"from sarvamai import SarvamAI; import inspect; c = SarvamAI\\(api_subscription_key='x'\\); print\\(inspect.signature\\(c.text.translate\\)\\); print\\(\\); print\\(c.text.translate.__doc__[:2000] if c.text.translate.__doc__ else 'no doc'\\)\")"
+    ]
+  }
+}
