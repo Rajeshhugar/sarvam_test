@@ -19,6 +19,11 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 from sarvamai import SarvamAI
 from sarvamai.core.api_error import ApiError
+from dotenv import load_dotenv
+
+load_dotenv()
+
+key = os.environ.get("SARVAM_API_KEY", "")
 
 # Force UTF-8 output so Bengali/Indic characters print correctly on Windows
 if hasattr(sys.stdout, "reconfigure"):
@@ -26,8 +31,6 @@ if hasattr(sys.stdout, "reconfigure"):
 if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8")
 
-
-API_KEY = "sk_x2w5zsz8_8XN67OYwU7A7FXtRr62VjCec"
 
 INPUT_ROOT = "output"              # root folder
 OUTPUT_ROOT = "translated_output"   # translated output
@@ -48,7 +51,7 @@ LANGUAGE_MAP = {
 
 
 client = SarvamAI(
-    api_subscription_key=API_KEY
+    api_subscription_key=key
 )
 
 
