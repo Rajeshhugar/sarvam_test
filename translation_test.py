@@ -32,8 +32,8 @@ if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8")
 
 
-INPUT_ROOT = "output"              # root folder
-OUTPUT_ROOT = "translated_output"   # translated output
+INPUT_ROOT = "output/kannada"              # root folder
+OUTPUT_ROOT = "translated_output/kannada"   # translated output
 
 TARGET_LANGUAGE = "en-IN"
 MODEL = "sarvam-translate:v1"
