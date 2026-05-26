@@ -61,3 +61,38 @@
 2026-05-25 17:04:26 [ERROR] Error [invoice_azimg_20260519_153910_700_0003.png]: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
 2026-05-25 17:04:26 [ERROR] Error [invoice_azimg_20260519_154345_017_0005.png]: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)
 2026-05-25 17:04:26 [INFO] Finished. ✓ 0 processed | ⏭ 0 skipped | ✗ 6 errors. See sarvam_ocr.log for details.
+2026-05-25 22:13:29 [INFO] Found 32 image(s) across 6 language(s). Workers=4, Retries=3, Format=md
+2026-05-25 22:13:43 [INFO] Done: bengali/invoice_azimg_20260519_153613_901_0001.png
+2026-05-25 22:13:43 [INFO] Done: bengali/invoice_azimg_20260519_153746_560_0002.png
+2026-05-25 22:13:43 [INFO] Done: bengali/invoice_azimg_20260519_122908_227_0001.png
+2026-05-25 22:13:43 [INFO] Done: bengali/invoice_azimg_20260519_153910_700_0003.png
+2026-05-25 22:13:54 [INFO] Done: bengali/invoice_azimg_20260519_154113_077_0004.png
+2026-05-25 22:13:56 [INFO] Done: bengali/invoice_azimg_20260519_154345_017_0005.png
+2026-05-25 22:13:56 [INFO] Done: hindi/invoice_azimg_20260518_164305_728_0002.png
+2026-05-25 22:13:56 [INFO] Done: hindi/invoice_azimg_20260518_164156_260_0001.png
+2026-05-25 22:14:07 [INFO] Done: hindi/invoice_azimg_20260518_164413_911_0003.png
+2026-05-25 22:14:09 [INFO] Done: hindi/invoice_azimg_20260518_164512_602_0004.png
+2026-05-25 22:14:11 [INFO] Done: hindi/invoice_azimg_20260518_164637_822_0005.png
+2026-05-25 22:14:14 [INFO] Done: hindi/invoice_azimg_20260519_122631_271_0001.png
+2026-05-25 22:14:20 [INFO] Done: kannada/invoice_azimg_20260518_165424_383_0001.png
+2026-05-25 22:14:21 [INFO] Done: kannada/invoice_azimg_20260518_165531_027_0002.png
+2026-05-25 22:14:24 [INFO] Done: kannada/invoice_azimg_20260518_165744_645_0004.png
+2026-05-25 22:14:24 [INFO] Done: kannada/invoice_azimg_20260518_165635_605_0003.png
+2026-05-25 22:14:31 [INFO] Done: kannada/invoice_azimg_20260518_165852_400_0005.png
+2026-05-25 22:14:33 [INFO] Done: marathi/invoice_azimg_20260518_164804_713_0001.png
+2026-05-25 22:14:38 [INFO] Done: marathi/invoice_azimg_20260518_164907_768_0002.png
+2026-05-25 22:14:38 [INFO] Done: marathi/invoice_azimg_20260518_165010_694_0003.png
+2026-05-25 22:14:44 [INFO] Done: marathi/invoice_azimg_20260518_165222_000_0005.png
+2026-05-25 22:14:49 [INFO] Done: marathi/invoice_azimg_20260518_165119_130_0004.png
+2026-05-25 22:14:49 [INFO] Done: tamil/invoice_azimg_20260519_160402_993_0001.png
+2026-05-25 22:14:52 [INFO] Done: tamil/invoice_azimg_20260519_160536_242_0002.png
+2026-05-25 22:14:55 [INFO] Done: tamil/invoice_azimg_20260519_160730_028_0003.png
+2026-05-25 22:15:00 [INFO] Done: tamil/invoice_azimg_20260519_161130_029_0004.png
+2026-05-25 22:15:00 [INFO] Done: tamil/invoice_azimg_20260519_161402_545_0005.png
+2026-05-25 22:15:03 [INFO] Done: telugu/invoice_azimg_20260519_155021_560_0001.png
+2026-05-25 22:15:06 [INFO] Done: telugu/invoice_azimg_20260519_155150_510_0002.png
+2026-05-25 22:15:14 [INFO] Done: telugu/invoice_azimg_20260519_155637_783_0004.png
+2026-05-25 22:15:14 [INFO] Done: telugu/invoice_azimg_20260519_155355_872_0003.png
+2026-05-25 22:15:16 [INFO] Done: telugu/invoice_azimg_20260519_155956_479_0005.png
+2026-05-25 22:15:16 [INFO] Finished. ✓ 32 processed | ⏭  0 skipped | ✗ 0 errors. See sarvam_ocr.log for details.
+2026-05-25 22:15:16 [INFO] Outputs saved under: D:\GENAI - Practise\sarvam_test\output/
